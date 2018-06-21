@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33A996420DC3EC600B5CA88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A996320DC3EC600B5CA88 /* AppDelegate.swift */; };
+		C33A996620DC3EC600B5CA88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A996520DC3EC600B5CA88 /* ViewController.swift */; };
+		C33A996920DC3EC600B5CA88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33A996720DC3EC600B5CA88 /* Main.storyboard */; };
+		C33A996B20DC3ECB00B5CA88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33A996A20DC3ECB00B5CA88 /* Assets.xcassets */; };
+		C33A996E20DC3ECB00B5CA88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33A996C20DC3ECB00B5CA88 /* LaunchScreen.storyboard */; };
+		C33A997920DC3ECB00B5CA88 /* encuestaNativaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A997820DC3ECB00B5CA88 /* encuestaNativaTests.swift */; };
+		C33A998420DC3ECB00B5CA88 /* encuestaNativaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A998320DC3ECB00B5CA88 /* encuestaNativaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C33A997520DC3ECB00B5CA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33A995820DC3EC600B5CA88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33A995F20DC3EC600B5CA88;
+			remoteInfo = encuestaNativa;
+		};
+		C33A998020DC3ECB00B5CA88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C33A995820DC3EC600B5CA88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33A995F20DC3EC600B5CA88;
+			remoteInfo = encuestaNativa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C33A996020DC3EC600B5CA88 /* encuestaNativa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = encuestaNativa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33A996320DC3EC600B5CA88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C33A996520DC3EC600B5CA88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C33A996820DC3EC600B5CA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C33A996A20DC3ECB00B5CA88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C33A996D20DC3ECB00B5CA88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C33A996F20DC3ECB00B5CA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33A997420DC3ECB00B5CA88 /* encuestaNativaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = encuestaNativaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33A997820DC3ECB00B5CA88 /* encuestaNativaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = encuestaNativaTests.swift; sourceTree = "<group>"; };
+		C33A997A20DC3ECB00B5CA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33A997F20DC3ECB00B5CA88 /* encuestaNativaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = encuestaNativaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C33A998320DC3ECB00B5CA88 /* encuestaNativaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = encuestaNativaUITests.swift; sourceTree = "<group>"; };
+		C33A998520DC3ECB00B5CA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C33A995D20DC3EC600B5CA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33A997120DC3ECB00B5CA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33A997C20DC3ECB00B5CA88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33A995720DC3EC600B5CA88 = {
+			isa = PBXGroup;
+			children = (
+				C33A996220DC3EC600B5CA88 /* encuestaNativa */,
+				C33A997720DC3ECB00B5CA88 /* encuestaNativaTests */,
+				C33A998220DC3ECB00B5CA88 /* encuestaNativaUITests */,
+				C33A996120DC3EC600B5CA88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C33A996120DC3EC600B5CA88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C33A996020DC3EC600B5CA88 /* encuestaNativa.app */,
+				C33A997420DC3ECB00B5CA88 /* encuestaNativaTests.xctest */,
+				C33A997F20DC3ECB00B5CA88 /* encuestaNativaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C33A996220DC3EC600B5CA88 /* encuestaNativa */ = {
+			isa = PBXGroup;
+			children = (
+				C33A996320DC3EC600B5CA88 /* AppDelegate.swift */,
+				C33A996520DC3EC600B5CA88 /* ViewController.swift */,
+				C33A996720DC3EC600B5CA88 /* Main.storyboard */,
+				C33A996A20DC3ECB00B5CA88 /* Assets.xcassets */,
+				C33A996C20DC3ECB00B5CA88 /* LaunchScreen.storyboard */,
+				C33A996F20DC3ECB00B5CA88 /* Info.plist */,
+			);
+			path = encuestaNativa;
+			sourceTree = "<group>";
+		};
+		C33A997720DC3ECB00B5CA88 /* encuestaNativaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C33A997820DC3ECB00B5CA88 /* encuestaNativaTests.swift */,
+				C33A997A20DC3ECB00B5CA88 /* Info.plist */,
+			);
+			path = encuestaNativaTests;
+			sourceTree = "<group>";
+		};
+		C33A998220DC3ECB00B5CA88 /* encuestaNativaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C33A998320DC3ECB00B5CA88 /* encuestaNativaUITests.swift */,
+				C33A998520DC3ECB00B5CA88 /* Info.plist */,
+			);
+			path = encuestaNativaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C33A995F20DC3EC600B5CA88 /* encuestaNativa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33A998820DC3ECB00B5CA88 /* Build configuration list for PBXNativeTarget "encuestaNativa" */;
+			buildPhases = (
+				C33A995C20DC3EC600B5CA88 /* Sources */,
+				C33A995D20DC3EC600B5CA88 /* Frameworks */,
+				C33A995E20DC3EC600B5CA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = encuestaNativa;
+			productName = encuestaNativa;
+			productReference = C33A996020DC3EC600B5CA88 /* encuestaNativa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C33A997320DC3ECB00B5CA88 /* encuestaNativaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33A998B20DC3ECB00B5CA88 /* Build configuration list for PBXNativeTarget "encuestaNativaTests" */;
+			buildPhases = (
+				C33A997020DC3ECB00B5CA88 /* Sources */,
+				C33A997120DC3ECB00B5CA88 /* Frameworks */,
+				C33A997220DC3ECB00B5CA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33A997620DC3ECB00B5CA88 /* PBXTargetDependency */,
+			);
+			name = encuestaNativaTests;
+			productName = encuestaNativaTests;
+			productReference = C33A997420DC3ECB00B5CA88 /* encuestaNativaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C33A997E20DC3ECB00B5CA88 /* encuestaNativaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C33A998E20DC3ECB00B5CA88 /* Build configuration list for PBXNativeTarget "encuestaNativaUITests" */;
+			buildPhases = (
+				C33A997B20DC3ECB00B5CA88 /* Sources */,
+				C33A997C20DC3ECB00B5CA88 /* Frameworks */,
+				C33A997D20DC3ECB00B5CA88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33A998120DC3ECB00B5CA88 /* PBXTargetDependency */,
+			);
+			name = encuestaNativaUITests;
+			productName = encuestaNativaUITests;
+			productReference = C33A997F20DC3ECB00B5CA88 /* encuestaNativaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C33A995820DC3EC600B5CA88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Arturo Sanhueza";
+				TargetAttributes = {
+					C33A995F20DC3EC600B5CA88 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					C33A997320DC3ECB00B5CA88 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = C33A995F20DC3EC600B5CA88;
+					};
+					C33A997E20DC3ECB00B5CA88 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = C33A995F20DC3EC600B5CA88;
+					};
+				};
+			};
+			buildConfigurationList = C33A995B20DC3EC600B5CA88 /* Build configuration list for PBXProject "encuestaNativa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C33A995720DC3EC600B5CA88;
+			productRefGroup = C33A996120DC3EC600B5CA88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C33A995F20DC3EC600B5CA88 /* encuestaNativa */,
+				C33A997320DC3ECB00B5CA88 /* encuestaNativaTests */,
+				C33A997E20DC3ECB00B5CA88 /* encuestaNativaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C33A995E20DC3EC600B5CA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33A996E20DC3ECB00B5CA88 /* LaunchScreen.storyboard in Resources */,
+				C33A996B20DC3ECB00B5CA88 /* Assets.xcassets in Resources */,
+				C33A996920DC3EC600B5CA88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33A997220DC3ECB00B5CA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33A997D20DC3ECB00B5CA88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C33A995C20DC3EC600B5CA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33A996620DC3EC600B5CA88 /* ViewController.swift in Sources */,
+				C33A996420DC3EC600B5CA88 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33A997020DC3ECB00B5CA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33A997920DC3ECB00B5CA88 /* encuestaNativaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33A997B20DC3ECB00B5CA88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33A998420DC3ECB00B5CA88 /* encuestaNativaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C33A997620DC3ECB00B5CA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33A995F20DC3EC600B5CA88 /* encuestaNativa */;
+			targetProxy = C33A997520DC3ECB00B5CA88 /* PBXContainerItemProxy */;
+		};
+		C33A998120DC3ECB00B5CA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C33A995F20DC3EC600B5CA88 /* encuestaNativa */;
+			targetProxy = C33A998020DC3ECB00B5CA88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C33A996720DC3EC600B5CA88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33A996820DC3EC600B5CA88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C33A996C20DC3ECB00B5CA88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C33A996D20DC3ECB00B5CA88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C33A998620DC3ECB00B5CA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C33A998720DC3ECB00B5CA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C33A998920DC3ECB00B5CA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5A54XUB2N;
+				INFOPLIST_FILE = encuestaNativa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobiCongress.encuestaNativa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C33A998A20DC3ECB00B5CA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5A54XUB2N;
+				INFOPLIST_FILE = encuestaNativa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobiCongress.encuestaNativa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C33A998C20DC3ECB00B5CA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5A54XUB2N;
+				INFOPLIST_FILE = encuestaNativaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobiCongress.encuestaNativaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/encuestaNativa.app/encuestaNativa";
+			};
+			name = Debug;
+		};
+		C33A998D20DC3ECB00B5CA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5A54XUB2N;
+				INFOPLIST_FILE = encuestaNativaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobiCongress.encuestaNativaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/encuestaNativa.app/encuestaNativa";
+			};
+			name = Release;
+		};
+		C33A998F20DC3ECB00B5CA88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5A54XUB2N;
+				INFOPLIST_FILE = encuestaNativaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobiCongress.encuestaNativaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = encuestaNativa;
+			};
+			name = Debug;
+		};
+		C33A999020DC3ECB00B5CA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5A54XUB2N;
+				INFOPLIST_FILE = encuestaNativaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mobiCongress.encuestaNativaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = encuestaNativa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C33A995B20DC3EC600B5CA88 /* Build configuration list for PBXProject "encuestaNativa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33A998620DC3ECB00B5CA88 /* Debug */,
+				C33A998720DC3ECB00B5CA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33A998820DC3ECB00B5CA88 /* Build configuration list for PBXNativeTarget "encuestaNativa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33A998920DC3ECB00B5CA88 /* Debug */,
+				C33A998A20DC3ECB00B5CA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33A998B20DC3ECB00B5CA88 /* Build configuration list for PBXNativeTarget "encuestaNativaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33A998C20DC3ECB00B5CA88 /* Debug */,
+				C33A998D20DC3ECB00B5CA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C33A998E20DC3ECB00B5CA88 /* Build configuration list for PBXNativeTarget "encuestaNativaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C33A998F20DC3ECB00B5CA88 /* Debug */,
+				C33A999020DC3ECB00B5CA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C33A995820DC3EC600B5CA88 /* Project object */;
+}
