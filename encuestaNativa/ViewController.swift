@@ -52,7 +52,7 @@ class ViewController: UIViewController {
     button.addTarget(self, action: #selector(seleccionarBotonAlternativa), for: .touchUpInside)
     arrayBotones.append(button)
     self.view.addSubview(button)
-    }
+        }
     }
     
     @objc func seleccionarBotonAlternativa() {
