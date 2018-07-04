@@ -12,8 +12,10 @@ class ViewController: UIViewController {
     
     var indicadorPregunta = Int()
     var arrayBotones = [UIButton]()
+    var arrayLabels = [UILabel]()
     var arrayPreguntas = [String]()
     var arrayOpcionesPregunta = [Array<String>]()
+    
     @IBOutlet weak var labelEncabezado:UILabel!
     @IBOutlet weak var labelPregunta:UILabel!
     @IBOutlet weak var labelContadorPreguntas:UILabel!
@@ -28,7 +30,7 @@ class ViewController: UIViewController {
 
     indicadorPregunta = 0
     arrayPreguntas = ["Pregunta 1","Pregunta 2","Pregunta 3","Pregunta 4","Pregunta 5"]
-    arrayOpcionesPregunta = [["a) primera alternativa","b) segunda alternativa","c) tercera alternativa"],[" P2 primera alternativa","segunda alternativa","tercera alternativa"],["P3 primera alternativa","segunda alternativa","tercera alternativa"], ["P4 primera alternativa","segunda alternativa","tercera alternativa"],["P5 primera alternativa","segunda alternativa","tercera alternativa"]]
+        arrayOpcionesPregunta = [["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa"],["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa"],["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa"], ["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa"],["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa"]]
 
         contenidoTexto.removeFromSuperview()
         seleccionarOpciones()
@@ -46,12 +48,19 @@ class ViewController: UIViewController {
     let index = opciones.index(of: object) as! Int
     let factorDinamicoDePosicion = CGFloat(index * 40)
     let button = UIButton(type: .system)
-    button.frame = CGRect(x: 20.0, y: factorDinamicoDePosicion + 200.0, width: 200.0, height: 40.0)
-    button.setTitle(object, for: .normal)
-    button.setTitleColor(UIColor.blue, for: .normal)
+    let labelTextoAlternativa = UILabel(frame: CGRect(x: 20.0, y: factorDinamicoDePosicion + 200.0, width: 200.0, height: 40.0))
+    labelTextoAlternativa.font = UIFont(name: "HelveticaNeue", size:14.0)
+    labelTextoAlternativa.text = object
+    button.frame = CGRect(x: 28.0, y: factorDinamicoDePosicion + 205.0, width: 200.0, height: 40.0)
+
+    button.setTitleColor(UIColor.gray, for: .normal)
+    button.setImage((UIImage(named: "rectangulo.png")), for: .normal)
     button.addTarget(self, action: #selector(seleccionarBotonAlternativa), for: .touchUpInside)
     arrayBotones.append(button)
+    arrayLabels.append(labelTextoAlternativa)
     self.view.addSubview(button)
+    self.view.addSubview(labelTextoAlternativa)
+        
         }
     }
     
@@ -91,6 +100,12 @@ class ViewController: UIViewController {
         for boton in arrayBotones{
             
             boton.removeFromSuperview()
+            
+        }
+        
+        for label in arrayLabels{
+            
+            label.removeFromSuperview()
         }
 
     }
@@ -105,8 +120,11 @@ class ViewController: UIViewController {
     
     func progresoBarra(){
         
+        let progresoFloat = Float(indicadorPregunta + 1)/Float(arrayPreguntas.count)
         
-        self.barraDeProgreso.setProgress(Float(indicadorPregunta/self.arrayPreguntas.count), animated: true)
+        print(progresoFloat)
+        
+        self.barraDeProgreso.setProgress(progresoFloat, animated: true)
         
     }
     override func didReceiveMemoryWarning() {
