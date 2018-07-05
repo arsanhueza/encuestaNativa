@@ -26,6 +26,15 @@
 		C39BF11120ED7C4A0036129B /* rectangulo.png in Resources */ = {isa = PBXBuildFile; fileRef = C39BF10E20ED7C490036129B /* rectangulo.png */; };
 		C39BF11220ED7C4A0036129B /* rectangulo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39BF10F20ED7C4A0036129B /* rectangulo@2x.png */; };
 		C39BF11320ED7C4A0036129B /* rectangulo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39BF11020ED7C4A0036129B /* rectangulo@3x.png */; };
+		C39BF11820EE58580036129B /* Btn_avanzar.png in Resources */ = {isa = PBXBuildFile; fileRef = C39BF11520EE58580036129B /* Btn_avanzar.png */; };
+		C39BF11920EE58580036129B /* Btn_avanzar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39BF11620EE58580036129B /* Btn_avanzar@2x.png */; };
+		C39BF11A20EE58580036129B /* Btn_avanzar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39BF11720EE58580036129B /* Btn_avanzar@3x.png */; };
+		C39BF11E20EE58FE0036129B /* Btn_volver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39BF11B20EE58FD0036129B /* Btn_volver@2x.png */; };
+		C39BF11F20EE58FE0036129B /* Btn_volver.png in Resources */ = {isa = PBXBuildFile; fileRef = C39BF11C20EE58FE0036129B /* Btn_volver.png */; };
+		C39BF12020EE58FE0036129B /* Btn_volver@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39BF11D20EE58FE0036129B /* Btn_volver@3x.png */; };
+		C39BF12420EE59730036129B /* Rectangle 4.png in Resources */ = {isa = PBXBuildFile; fileRef = C39BF12120EE59720036129B /* Rectangle 4.png */; };
+		C39BF12520EE59730036129B /* Rectangle 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39BF12220EE59720036129B /* Rectangle 4@2x.png */; };
+		C39BF12620EE59730036129B /* Rectangle 4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C39BF12320EE59720036129B /* Rectangle 4@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +80,15 @@
 		C39BF10E20ED7C490036129B /* rectangulo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rectangulo.png; sourceTree = "<group>"; };
 		C39BF10F20ED7C4A0036129B /* rectangulo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rectangulo@2x.png"; sourceTree = "<group>"; };
 		C39BF11020ED7C4A0036129B /* rectangulo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rectangulo@3x.png"; sourceTree = "<group>"; };
+		C39BF11520EE58580036129B /* Btn_avanzar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_avanzar.png; sourceTree = "<group>"; };
+		C39BF11620EE58580036129B /* Btn_avanzar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn_avanzar@2x.png"; sourceTree = "<group>"; };
+		C39BF11720EE58580036129B /* Btn_avanzar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn_avanzar@3x.png"; sourceTree = "<group>"; };
+		C39BF11B20EE58FD0036129B /* Btn_volver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn_volver@2x.png"; sourceTree = "<group>"; };
+		C39BF11C20EE58FE0036129B /* Btn_volver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Btn_volver.png; sourceTree = "<group>"; };
+		C39BF11D20EE58FE0036129B /* Btn_volver@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Btn_volver@3x.png"; sourceTree = "<group>"; };
+		C39BF12120EE59720036129B /* Rectangle 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 4.png"; sourceTree = "<group>"; };
+		C39BF12220EE59720036129B /* Rectangle 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 4@2x.png"; sourceTree = "<group>"; };
+		C39BF12320EE59720036129B /* Rectangle 4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 4@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +171,15 @@
 		C39BF11420ED87B10036129B /* imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				C39BF12120EE59720036129B /* Rectangle 4.png */,
+				C39BF12220EE59720036129B /* Rectangle 4@2x.png */,
+				C39BF12320EE59720036129B /* Rectangle 4@3x.png */,
+				C39BF11C20EE58FE0036129B /* Btn_volver.png */,
+				C39BF11B20EE58FD0036129B /* Btn_volver@2x.png */,
+				C39BF11D20EE58FE0036129B /* Btn_volver@3x.png */,
+				C39BF11520EE58580036129B /* Btn_avanzar.png */,
+				C39BF11620EE58580036129B /* Btn_avanzar@2x.png */,
+				C39BF11720EE58580036129B /* Btn_avanzar@3x.png */,
 				C39BF10420ED7C2F0036129B /* Alternativa_marcada.png */,
 				C39BF10720ED7C300036129B /* Alternativa_marcada@2x.png */,
 				C39BF10620ED7C300036129B /* Alternativa_marcada@3x.png */,
@@ -273,20 +300,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39BF12020EE58FE0036129B /* Btn_volver@3x.png in Resources */,
 				C33A996E20DC3ECB00B5CA88 /* LaunchScreen.storyboard in Resources */,
 				C39BF10C20ED7C300036129B /* Alternativa_marcada@3x.png in Resources */,
+				C39BF12420EE59730036129B /* Rectangle 4.png in Resources */,
 				C39BF10A20ED7C300036129B /* Alternativa_marcada.png in Resources */,
+				C39BF11920EE58580036129B /* Btn_avanzar@2x.png in Resources */,
+				C39BF11E20EE58FE0036129B /* Btn_volver@2x.png in Resources */,
 				C39BF10120ED7C240036129B /* muestra@3x.png in Resources */,
+				C39BF12520EE59730036129B /* Rectangle 4@2x.png in Resources */,
+				C39BF11F20EE58FE0036129B /* Btn_volver.png in Resources */,
 				C39BF10920ED7C300036129B /* circulo_alternativa@2x.png in Resources */,
 				C39BF10020ED7C240036129B /* muestra@2x.png in Resources */,
 				C39BF11120ED7C4A0036129B /* rectangulo.png in Resources */,
 				C39BF10D20ED7C300036129B /* Alternativa_marcada@2x.png in Resources */,
+				C39BF11820EE58580036129B /* Btn_avanzar.png in Resources */,
 				C33A996B20DC3ECB00B5CA88 /* Assets.xcassets in Resources */,
 				C33A996920DC3EC600B5CA88 /* Main.storyboard in Resources */,
+				C39BF12620EE59730036129B /* Rectangle 4@3x.png in Resources */,
 				C39BF11220ED7C4A0036129B /* rectangulo@2x.png in Resources */,
 				C39BF10B20ED7C300036129B /* circulo_alternativa@3x.png in Resources */,
 				C39BF10820ED7C300036129B /* circulo_alternativa.png in Resources */,
 				C39BF0FF20ED7C240036129B /* muestra.png in Resources */,
+				C39BF11A20EE58580036129B /* Btn_avanzar@3x.png in Resources */,
 				C39BF11320ED7C4A0036129B /* rectangulo@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

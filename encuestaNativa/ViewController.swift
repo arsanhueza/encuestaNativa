@@ -30,7 +30,7 @@ class ViewController: UIViewController {
 
     indicadorPregunta = 0
     arrayPreguntas = ["Pregunta 1","Pregunta 2","Pregunta 3","Pregunta 4","Pregunta 5"]
-        arrayOpcionesPregunta = [["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa"],["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa"],["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa"], ["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa"],["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa"]]
+        arrayOpcionesPregunta = [["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa", "d)  Cuarta alternativa"],["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa","d)  Cuarta alternativa"],["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa", "d)  Cuarta alternativa"], ["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa", "d)  Cuarta alternativa"],["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa", "d)  Cuarta alternativa"]]
 
         contenidoTexto.removeFromSuperview()
         seleccionarOpciones()
@@ -52,8 +52,8 @@ class ViewController: UIViewController {
     labelTextoAlternativa.font = UIFont(name: "HelveticaNeue", size:14.0)
     labelTextoAlternativa.text = object
     button.frame = CGRect(x: 28.0, y: factorDinamicoDePosicion + 205.0, width: 200.0, height: 40.0)
-
-    button.setTitleColor(UIColor.gray, for: .normal)
+    
+    button.tintColor = UIColor.lightGray
     button.setImage((UIImage(named: "rectangulo.png")), for: .normal)
     button.addTarget(self, action: #selector(seleccionarBotonAlternativa), for: .touchUpInside)
     arrayBotones.append(button)
