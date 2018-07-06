@@ -48,6 +48,7 @@ class ViewController: UIViewController {
     let index = opciones.index(of: object) as! Int
     let factorDinamicoDePosicion = CGFloat(index * 60)
     let button = UIButton(type: .system)
+        //
     let labelTextoAlternativa = UILabel(frame: CGRect(x: 20.0, y: factorDinamicoDePosicion + 200.0, width: view.frame.size.width - 100.0, height: 0.0))
     let maximumLabelSizeTitulo = CGSize(width: (self.view.frame.size.width - 100.0), height: 40000.0)
 
