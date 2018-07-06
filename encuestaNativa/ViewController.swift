@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
 
     indicadorPregunta = 0
-    arrayPreguntas = ["Pregunta 1","Pregunta 2","Pregunta 3","Pregunta 4","Pregunta 5"]
+    arrayPreguntas = ["¿Vamos a hacer la pregunta número uno?","¿Vamos a hacer la pregunta número dos?","¿Vamos a hacer la pregunta número tres?","¿Vamos a hacer la pregunta número cuatro?","¿Vamos a hacer la pregunta número cinco?"]
         arrayOpcionesPregunta = [["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa", "d)  Cuarta alternativa"],["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa","d)  Cuarta alternativa"],["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa", "d)  Cuarta alternativa"], ["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa", "d)  Cuarta alternativa"],["a)  Primera alternativa","b)  Segunda alternativa","c)  Tercera alternativa", "d)  Cuarta alternativa"]]
 
         contenidoTexto.removeFromSuperview()
@@ -46,12 +46,22 @@ class ViewController: UIViewController {
     for object in opciones {
 
     let index = opciones.index(of: object) as! Int
-    let factorDinamicoDePosicion = CGFloat(index * 40)
+    let factorDinamicoDePosicion = CGFloat(index * 60)
     let button = UIButton(type: .system)
-    let labelTextoAlternativa = UILabel(frame: CGRect(x: 20.0, y: factorDinamicoDePosicion + 200.0, width: 200.0, height: 40.0))
-    labelTextoAlternativa.font = UIFont(name: "HelveticaNeue", size:14.0)
-    labelTextoAlternativa.text = object
-    button.frame = CGRect(x: 28.0, y: factorDinamicoDePosicion + 205.0, width: 200.0, height: 40.0)
+    let labelTextoAlternativa = UILabel(frame: CGRect(x: 20.0, y: factorDinamicoDePosicion + 200.0, width: view.frame.size.width - 100.0, height: 0.0))
+    let maximumLabelSizeTitulo = CGSize(width: (self.view.frame.size.width - 100.0), height: 40000.0)
+
+
+        labelTextoAlternativa.sizeThatFits(maximumLabelSizeTitulo)
+        labelTextoAlternativa.font = UIFont.systemFont(ofSize: 15.0)
+        labelTextoAlternativa.text = object
+
+//        cell.labelTitulo.textColor = UIColor(red: 30.0/255.0, green: 144.0/255.0, blue: 255.0/255.0, alpha: 1.0)
+        labelTextoAlternativa.textAlignment = .left
+        labelTextoAlternativa.numberOfLines = 0
+        labelTextoAlternativa.sizeToFit()
+
+    button.frame = CGRect(x: 28.0, y: factorDinamicoDePosicion + 196.0, width: labelTextoAlternativa.frame.width + 30.0, height: labelTextoAlternativa.frame.height + 20.0)
     
     button.tintColor = UIColor.lightGray
     button.setImage((UIImage(named: "rectangulo.png")), for: .normal)
